@@ -6,6 +6,17 @@ body {
   font-size: 32px;
   font-weight: 600;
 }
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.section{
+  margin-bottom: 64px;
+}
+.section-title{
+  margin-bottom: 24px;
+}
 
 /*---- Menu ----*/
 
@@ -16,17 +27,23 @@ body {
   background-position: center center;
   font-size: 64px;
   font-weight: 600;
-
+  height: 720px;
+}
+.hero-title{
+  padding-top: 128px;
 }
 
 /*---- Collection Section ----*/
 .collection-item-title{
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 12px;
 }
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
+  padding: 24px;
+  border-radius: 8px;
 }
 
 .collection-item-one {
@@ -61,5 +78,19 @@ body {
 .product-item-tile{
   font-size: 18px;
   font-weight: 600;
+  border-radius: 18px;
+  margin-top: 24px;
+}
+.product-item{
+  width: calc(100% / 3);
+  margin-bottom: 16px;
+}
+.product-item-image{
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.price{
+  margin-top: 24px;
 }
 /*---- About Section ----*/
