@@ -1,0 +1,203 @@
+/* common */
+body{
+    width: 1440px;
+    margin: auto;
+}
+section{
+    margin: 0px 30px;
+}
+/* Nav */
+.nav-bar{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-addactivity{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+/* profile */
+#profile-nav{
+    display: flex;
+    margin: 0px;
+    width: 20%;
+    padding-top: 30px;
+    border-right: 1px solid grey;
+}
+.profile-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profile-pic-contain{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.profile-circle-bg{
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    display: inline-block
+}
+.profile-circle-bg img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.profile-info p{
+    margin: 0px;
+    font-size: 18px;
+}
+.profile-info label{
+    font-size: 18px;
+    padding-top: 5px;
+    color: grey;
+}
+.profile-footer{
+    display: flex;
+    justify-content: center;
+}
+.profile-footer a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.profile-footer  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.profile-footer a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.profile-footer a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Body */
+.body-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.body-label-input-contain{
+    display: flex;
+    width: 33%;
+    padding-top: 30px;
+    justify-content: flex-end;
+}
+.body-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.body-input-label{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-input-label div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body-input-label label{
+    padding: 10px 10px;
+} 
+.body-input-label input{
+    width: 180px;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.body-input-label select{
+    width: 180px;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.body-button{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 20%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+.save-button{
+    margin: 8px 0px;
+    width: 14rem;
+    height: 14rem;
+    font-size: 40px;
+}
+
+/* table */
+.body-data-contain{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.table-contain{
+    display: flex;
+}
+#table-data{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 430px;
+    border: 1px solid #ddd;
+}
+#table-data tbody{
+    display: block;
+    max-height: 374.5px;
+    overflow-y: scroll;
+}
+#table-data thead, tbody tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.table-contain table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#table-data thead th{
+    text-align: left;
+    font-size: 20px;
+    padding: 1rem;
+    border-bottom: 1px solid #bbb;
+}
+#table-data td{
+    padding-left: 2rem;
+    font-size: 18px;
+}
+.table-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+.table-button input{
+    width: 12rem;
+    height: 2rem;
+}
