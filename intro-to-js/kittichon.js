@@ -32,3 +32,9 @@ function helloWorld(){
     const h1message = document.getElementById("myname").innerHTML;
     alert(h1message + " โซ่เถอะนะน้อง ทองมันแพง");
 }
+
+//style
+body.setAttribute("style","width:80%;margin:auto;display:flex;justify-content:center;flex-direction:column;align-items:cetner;text-align:center;background-color:#27B5B8;")
+btnAskname.setAttribute("style","height:100px; margin-bottom:15px; background-color:#EBCA1A; font-size:18px");
+btnHello.setAttribute("style","height:100px; background-color:#EBCA1A; font-size:18px");
+myname.setAttribute("style","color:white;")
