@@ -1,0 +1,81 @@
+p{
+    margin: 0px;
+}
+.skill-contain{
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+    background-color: #334257;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EEE;
+    position: relative;
+}
+.skill-contain h1{
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.languages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.languages h2{
+    margin: 20px 0px;
+    font-size: 50px;
+    text-indent: 60px;
+}
+.layout-contain{
+    display: flex;
+}
+.layout-contain .lang-layout1{
+    font-size: 40px;
+    text-indent: 120px;
+}
+.lang-layout1-skill{
+    text-indent: 180px;
+}
+.lang-layout2-skill{
+    text-indent: 50px;
+}
+.layout-contain .lang-layout2 p{
+    margin: 0px;
+    font-size: 40px;
+}
+.lang-layout2{
+    margin-left: 20px;
+}
+
+.communication-contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-indent: 60px;
+}
+.communication-contain h3{
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 50px;
+    text-indent: 120px;
+}
+.communication-contain p{
+    margin: 0px;
+    font-size: 40px;
+    text-indent: 180px;
+}
+
+.skill-pic{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    right: 0px;
+    height: 100%;
+    background-color: #EEE;
+}
+.skill-pic img{
+    width: 250px;
+}
