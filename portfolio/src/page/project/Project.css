@@ -1,0 +1,27 @@
+.project-contain{
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+    background-color: #476072;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EEE;
+    position: relative;
+}
+.project-header h1{
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.project-list-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.project-list-border img{
+    width: 300px;
+}
